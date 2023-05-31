@@ -1,0 +1,28 @@
+
+.imagee{
+    height: 19em;
+    width: 19em;
+}
+
+.link{
+    text-decoration: none;
+    color:lightslategrey;
+}
+img{
+    border-radius: 6px;
+}
+
+
+@media (max-width: 600px) {
+   
+
+    .imagee{
+        width: 28em;
+        
+    }
+    h6{
+        padding-left: 1em;
+    }
+
+
+}
