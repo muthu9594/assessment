@@ -29,30 +29,13 @@ img{
 
 }
 
-@media (max-width:414px) {
-    .imagee {
-        width: 18em;
-        padding: 0;
 
-
-    }
-}
-
-
-@media (max-width: 400px ) {
-    .imagee {
-            width: 18em;
-            padding:0;
-           
-    
-        }
-}
 
 
 @media  (max-width:414px){
     .imagee {
-            width: 18em;
-            padding: 0;
+            width: 20em;
+          
     
     
         }
