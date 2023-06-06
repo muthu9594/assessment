@@ -13,11 +13,13 @@ img{
 }
 
 
+
+
 @media (max-width: 600px) {
    
 
     .imagee{
-        width: 28em;
+        width: 21em;
         
     }
     h6{
@@ -25,4 +27,33 @@ img{
     }
 
 
+}
+
+@media (max-width:414px) {
+    .imagee {
+        width: 18em;
+        padding: 0;
+
+
+    }
+}
+
+
+@media (max-width: 400px ) {
+    .imagee {
+            width: 18em;
+            padding:0;
+           
+    
+        }
+}
+
+
+@media  (max-width:414px){
+    .imagee {
+            width: 18em;
+            padding: 0;
+    
+    
+        }
 }

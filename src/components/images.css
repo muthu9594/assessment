@@ -2,9 +2,12 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
-    overflow: hidden;
+    overflow: scroll;
 }
 
+.ps{
+    padding: 5% 5% 0 10%;
+}
 
 
 @media (max-width: 600px) {
@@ -12,8 +15,21 @@
         grid-template-columns: 1fr;
         width: 15em;
         overflow: inherit;
+        padding:5% 5% 0 10%
     }
        
 
 
+}
+
+
+@media (max-width:450px) {
+    .grid-container {
+            grid-template-columns: 1fr;
+            width: 15em;
+            overflow: inherit;
+            align-items: center;
+            padding:0%;
+           
+        }
 }

@@ -86,10 +86,10 @@ const Images = () => {
         Search Result For: {result}
       </h3>
 
-      <div className="grid-container" style={{ padding: "5%" }}>
+      <div className="grid-container">
         {images.length > 0 ? (
           images.map((image) => (
-            <div key={image.id} className="grid-item">
+            <div key={image.id} className="grid-item ps">
               <Imagee
                 image={image.urls.regular}
                 description={image.description}
